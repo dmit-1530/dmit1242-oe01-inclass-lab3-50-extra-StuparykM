@@ -34,6 +34,42 @@ header {
     padding: 0.5rem;
 }
 
+svg{
+    width: 2rem;
+    margin-right: 0.5rem;;
+}
+
+ul a{
+    display: flex;
+    justify-content:left;
+    align-items: left;
+    text-decoration: none;
+    
+}
+
+li{
+    padding-top: 1rem;
+}
+
+ul{
+    padding: 0;
+}
+
+ul li div{
+    position: relative;
+}
+
+span{
+    position: absolute;
+    left: .85rem;
+    top: -0.5rem;
+    background-color: var(--rose-700);
+    color: white;
+    font-size: .75rem;
+    padding: 0.20rem 0.60rem;
+    border-radius: 50%;
+}
+
 
 /* Media Query */
 
