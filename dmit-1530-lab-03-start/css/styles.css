@@ -42,7 +42,6 @@ svg{
 ul a{
     display: flex;
     justify-content:left;
-    align-items: left;
     text-decoration: none;
     
 }
@@ -72,4 +71,37 @@ span{
 
 
 /* Media Query */
+@media screen and (min-width: 768px) {
 
+    .container{
+        display: flex;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    ul.menu{
+        display: flex;
+        justify-content:space-between;
+        gap:2rem;
+    }
+
+    h1{
+        margin: 0 auto;
+    }
+
+    li{
+        padding-top: unset;
+
+    }
+
+    ul{
+        margin: unset;
+    }
+
+    nav{
+        margin: 0 auto;
+
+    }
+
+
+}
